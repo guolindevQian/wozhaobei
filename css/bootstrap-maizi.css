@@ -1,0 +1,201 @@
+body{
+    font-family: 'Microsoft YaHei',sans-serif;
+}
+.mai{
+    background: #40D2B1;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.5);
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle{
+    margin-top: 18px;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #1c9982;
+}
+#home{
+    background: url("../images/home-bg.jpg");
+    background-size: cover;
+    color:white;
+    width: 100%;
+    text-align: center;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 90px 0px;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
+#bbs{
+    padding: 80px 0;
+    text-align: center;
+}
+#bbs .col-md-4{
+    padding: 25px;
+}
+#bbs .col-md-4:hover{
+    background: rgb(243, 242, 242);
+    box-shadow: 1px 1px 5px 0px;
+}
+#bbs a{
+    color: #212121;
+    text-decoration: none;
+}
+#bbs img{
+    margin:0 auto;
+}
+#bbs h1{
+    font-weight: bold;
+}
+#html5{
+    padding: 80px 0;
+    background: rgb(248, 246, 246);
+}
+#html5 h2{
+    font-weight: bold;
+}
+#html5 p{
+    line-height: 50px;
+}
+#boot{
+    padding: 80px 0;
+}
+#boot h2{
+    font-weight: bold;
+}
+#boot p{
+    line-height: 50px;
+}
+#news{
+    padding: 80px 0;
+    background: rgb(248, 246, 246);
+}
+#news h1{
+    text-align: center;
+    margin: 50px;
+    font-weight: bold;
+}
+#news .col-md-3, col-sm-6,col-xs-12{
+    background: rgb(248, 246, 246);
+    padding:10px;
+}
+
+#news img{
+    width: 100%;
+}
+#news p{
+    text-align: center;
+}
+#news a{
+    color: #212121;
+    text-decoration: none;
+}
+#news p{
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #40D2B1;
+}
+#news p:hover{
+    background:#40D2B1;
+    color:white;
+}
+.bian{
+    background: white;
+    padding-bottom: 10px;
+}
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background:rgb(44, 142, 120);
+}
+#contact{
+    background:url("../images/bg.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+#contact p{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+#contact .form-control{
+    border: none;
+    height: 50px;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+#contact textarea .form-control{
+    margin: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #ffffff;
+    font-weight: bold;
+    transition:all 0.5s ;
+}
+#contact input[type="submit"]:HOVER{
+    background: rgb(44, 142, 120);
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
